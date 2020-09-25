@@ -27,3 +27,5 @@ Prethodno potrebno instalirati NodeJS (v12.14.0 ili novija)
 ### Karakteristika aplikacije:
 
     - Mogućnost praćenja broja zaraženih u svetu, u realnom vremenu
+
+| Projekatu se može pristupiti i preko linka https://srdjansolajic.github.io/Covid-19.app/
