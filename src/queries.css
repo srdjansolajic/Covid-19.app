@@ -1,0 +1,177 @@
+/* Big tablet to 1200px (width smaller that the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .div-global {
+        width: 80%;
+    }
+    h1 {
+        font-size: 47px;
+    }
+    .select-form {
+        padding-top: 150px;
+        height: 50vh;
+    }
+    .div-flag {
+        width: 19%;
+    }
+    .section-show {
+        height: 70vh;
+    }
+    .section-flag {
+        height: 80vh;
+    }
+}
+
+
+/* Small tablet to big tablet: from 768px to 1024px */
+@media only screen and (max-width: 1024px) {
+    .div-global {
+        width: 80%;
+    }
+    h1 {
+        font-size: 45px;
+    }
+    .section-global {
+        height: 50vh;
+    }
+    .div-flag {
+        width: 30%;
+    }
+    .div-choice {
+        width: 96.5%;
+        margin-left: 2%;
+    }
+    .div-covid {
+        margin-top: 450px;
+    }
+    .select-choice {
+        font-size: 22px;
+    }
+    .button-choice {
+       font-size: 22px;
+    }
+    .input-choice {
+       font-size: 22px;
+    }
+
+}
+
+
+/* Small phone to small tablets: from 481px to 768px */
+@media only screen and (max-width: 768px) {
+    .div-global {
+        width: 80%;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    .button-global {
+        margin-bottom: 15px;
+    }
+    .section-global {
+        height: 50vh;
+    }
+    /* .div-flag-list {
+        margin-top: 100px;
+    } */
+    .div-form {
+        width: 80%;
+        margin-bottom: 15px;
+    }
+    .div-choice {
+        margin-top: 100px;
+        width: 96%;
+        margin-left: 2%;
+    }
+    .div-flag {
+        width: 30%;
+    }
+    .select-choice {
+        width: 20%;
+        font-size: 18px;
+    }
+    .button-choice {
+        width: 20%;
+        font-size: 18px;
+        margin-left: 2px;
+    }
+    .input-choice {
+        width: 20%;
+        font-size: 18px;
+        margin-left: 2px;
+    }
+    .div-covid {
+        margin-top: 400px;
+        width: 98%;
+    }
+    .span-text {
+        font-size: 30px;
+    }
+}
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    .div-global {
+        width: 80%;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    .button-global {
+        width: 80%;
+        margin: 2%;
+        margin-left: 30px;
+    }
+    .nav-global {
+        flex-direction: column;
+    }
+    .div-form {
+        width: 80%;
+        margin-top: 50px;
+        margin-bottom: 15px;
+    }
+    .select-choice {
+        margin-top: 15px;
+        width: 80%;
+        margin-left: 20%;
+        margin-bottom: 10px;
+    }
+    .button-choice {
+        width: 80%;
+        margin-left: 20%;
+        margin-bottom: 10px;
+    }
+    .input-choice {
+        width: 80%;
+        margin-left: 20%;
+    }
+    .div-choice {
+        width: 80%;
+        margin-top: 400px;
+        flex-direction: column;
+    }
+    .div-flag-list {
+        flex-direction: column;
+    }
+    .div-flag {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .div-covid {
+        margin-top: 2900px;
+        width: 98%;
+    }
+    .span-number {
+        width: 33%;
+    }
+    .span-text {
+        font-size: 20px;
+        margin-bottom: 10px;
+
+    }
+    .p-date {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+  
