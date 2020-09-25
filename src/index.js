@@ -59,7 +59,7 @@ const App = () => {
   },[])
 
   return (
-    <Router basename='/'>
+    <Router basename='/Covid-19.app'>
         
         <AllInformation global={global} />
 
